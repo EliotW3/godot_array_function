@@ -19,10 +19,13 @@ product(numbers : Array) -> float:
 
 > returns the product of all numerical values in an array.
 
+count_if_num(numbers : Array, type : int, criteria : float) -> int:
+
+> returns the count of numerical values meeting the criteria.
 
 ### To be added:
 - count_if_str (contains a str value) 
-- count_if_num (satisfies a numerical requirement)
+- count_if_num --- needs a enum adding
 - narrow_str (returns a sub-array containing a str value)
 - narrow_num (returns a sub-array satisfying a numerical value)
   
